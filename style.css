@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+}
+.nav-bar{
+    background: #000;
+    flex: 1;
+    
+}
+
+.link>p,
+.other-activites>p{
+    margin-top: 10px;
+    margin-left: 15px;
+color: #FFF;
+font-family: DM Sans;
+font-size: 19px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1.14px;
+}
+.link>p>a{
+    margin-top: 10px;
+    margin-left: 15px;
+color: #FFF;
+font-family: DM Sans;
+font-size: 19px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1.14px;
+text-decoration: none; 
+transition: all 0.3s ease; 
+}
+.home:hover,
+.Search:hover,
+.Library:hover{
+    background-color: #7C6EE6;
+}
+.link{
+    display: flex;  
+}
+.box{
+width: 29.645px;
+height: 29.645px;
+background-color: #FFF;
+font-size: 20px;
+text-align: center;
+}
+.heart{
+text-align: center;
+width: 29.645px;
+height: 29.645px;
+border-radius: 1px;
+background: linear-gradient(135deg, #4000F4 0%, #603AED 22.48%, #7C6EE6 46.93%, #979FE1 65.71%, #A2B3DE 77.68%, #ADC8DC 88.93%, #C0ECD7 100%);
+}
+.episodes{
+text-align: center;    
+width: 29.645px;
+height: 29.645px;
+border-radius: 5px;
+background: #004638;
+}
+.install-app{
+    margin-top: 70px;
+    margin-left: 25px;
+}
+.content-detail{
+    flex: 4;
+    background: linear-gradient(180deg, #222 0%, #1F1F1F 11.64%, #171717 25.66%, #161616 32.94%, #151515 35.98%, #131313 44.89%, #121212 55.22%, #121212 75.34%, #121212 85.45%, rgba(18, 18, 18, 0.00) 100%);
+}
+.current-artist{
+width: 147px;
+height: 41px;
+    border-radius: 33px;
+background: #0A0A0A;
+}
+.angel{
+    display: flex;
+    justify-content: space-between;
+}
+.good-morning{
+    width:95% ;
+    margin:auto;
+}
+.content-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.like-song{
+width: 262px;
+height: 100px;
+border-radius: 4px;
+background: #303030;
+color: white;
+text-align: center;
+padding-top: 30px;
+}
+.heart-box{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100px;
+height: 100px;
+border-radius: 4px 0px 0px 4px;
+background: linear-gradient(135deg, #4000F4 0%, #603AED 22.48%, #7C6EE6 46.93%, #979FE1 65.71%, #A2B3DE 77.68%, #ADC8DC 88.93%, #C0ECD7 100%);
+
+}
+.Neffex-Playlist,
+.k-da,
+.Electronic-Mix{
+ width: 100px;
+height: 100px;
+
+}
+.show-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Weekly{
+width: 180.292px;
+height: 200.904px;
+background: #181818;
+}
+.Weekly-2{
+    width: 150.292px;
+    height: 150.904px;
+    background: #181818;  
+}
+.Weekly>p{
+    color: #FFF;
+font-family: DM Sans;
+font-size: 17px;
+font-style: normal;
+}
+.Weekly>p>span{
+ color: #B3B3B3;
+font-family: DM Sans;
+font-size: 15px;
+}
+.song-detail>p{
+color: #FFF;
+font-family: DM Sans;
+font-size: 18px;
+}
+.song-detail>p>span{
+color: #B3B3B3;
+font-family: DM Sans;
+font-size: 15px;
+}
+.audio{
+ display: flex;
+background: #181818;
+justify-content: space-between;
+align-items: center;
+}
+.line{
+    margin-top: 5px;
+    border-bottom: 3px solid white;
+    width:300px;
+}
+.footer-line{
+    height: 30px;
+    background: #1ED760;
+}
+.footer-text{
+    display: flex;
+    flex-direction: row-reverse;
+    color: #000;
+font-family: DM Sans;
+font-size: 17px;
+
+}
+.time{
+    margin-right: 255px;
+}
+
+/* 2 page */
+
+.album{
+    margin-top: 350px;
+    margin-left: 30px;
+}
+.content-detail-2{
+    flex: 4;
+    background: linear-gradient(180deg, #90AEA7 0%, #000 89.7%);
+}
+.current-music{
+    display: flex;
+    align-items: center;
+}
+.pop-music>p{
+ color: #FFF;
+font-family: Circular Std;
+font-size: 13px;
+font-style: normal;
+}
+.pop-music>h2{
+    color: #FFF;
+font-family: Circular Std;
+font-size: 90px;
+font-style: normal;
+}
+.list-of-songs{
+    width:90%;
+    margin: auto;
+}
+.title>p{
+color: #FFF;
+font-family: Circular Std;
+font-size: 16px;
+}
+.title>p>span{
+    color: #FFF;
+font-family: Circular Std;
+font-size: 14px;
+}
+th{
+    color: #FFF;
+    font-family: Circular Std;
+    font-size: 20px; 
+}
+td>p{
+    color: #FFF;
+font-family: Circular Std;
+font-size: 14px;
+font-style: normal;
+}
+tr:hover{
+    background-color: #181818;
+}
+.audio{
+    display: flex;
+   background: #181818;
+   justify-content: space-between;
+   align-items: center;
+   }
+   .line{
+       margin-top: 5px;
+       border-bottom: 3px solid white;
+       width:300px;
+   }
+   .footer-line{
+       height: 30px;
+       background: #1ED760;
+   }
+   .footer-text{
+       display: flex;
+       flex-direction: row-reverse;
+       color: #000;
+   font-family: DM Sans;
+   font-size: 17px;
+   
+   }
+   .time{
+       margin-right: 255px;
+   }
+
+
+/* media query */
+@media only screen and (max-width: 767px) {
+    .nav-link{
+        color:#1ED760 !important;
+        transition: all 0.5s linear;
+      }
+      .nav-link:hover {
+          color: red !important;
+          
+        transform: scale(1.1);
+        }
+    .audio{
+        display: none;
+    }
+    .nav-bar{
+        display: none;
+    }
+    .content-list{
+        display: flex;
+        flex-wrap: nowrap !important;
+        flex-direction: column !important;
+    }
+    .content-list-2{
+        width:98vw !important ;
+        margin: 0 !important;
+        padding-top: 20px;
+    }
+    .show-list{
+        display: flex;
+        flex-wrap: nowrap !important;
+        flex-direction: column !important;
+      
+    }
+    .Weekly{
+        width: 98vw !important ;
+        height: 200.904px;
+        background: #181818;
+        margin: 0 !important;
+        }
+        .Weekly>div>img{
+            width:50vw !important;
+        }
+        .footer-line{
+            width:100vw !important ;
+        }
+        .album{
+            margin: 0 !important;
+        }
+        .current-music{
+            display: flex;
+            align-items: center;
+            flex-direction: column !important;
+        }
+}

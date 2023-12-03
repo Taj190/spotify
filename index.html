@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Spotify</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark d-lg-none">
+    <div class="container-fluid me-lg-5 me-0">
+        <a class="navbar-brand" href="#"><img src="./image/Spotify logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="playlist.html">Search</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Library</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">sign up</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <div class=" main">
+      <div class="nav-bar ">
+        <header>
+          <div class="logo mt-4 ms-4"><img src="/image/Spotify logo.png" alt="logo"></div>
+             <nav class="mt-4 ms-4">
+              <!-- home -->
+              
+              <div class="home  link ">
+                <div><svg xmlns="http://www.w3.org/2000/svg" width="31" height="34" viewBox="0 0 31 34" fill="none">
+                  <g clip-path="url(#clip0_306_615)">
+                    <path d="M15.5849 19.6659C14.6021 19.6659 13.6596 20.0888 12.9646 20.8417C12.2697 21.5946 11.8793 22.6157 11.8793 23.6804V33.0822H19.2906V23.6804C19.2906 22.6157 18.9002 21.5946 18.2052 20.8417C17.5103 20.0888 16.5677 19.6659 15.5849 19.6659Z" fill="white"/>
+                    <path d="M17.2376 2.04697C16.784 1.60463 16.1953 1.35986 15.5849 1.35986C14.9746 1.35986 14.3858 1.60463 13.9322 2.04697L0.762268 14.8879V28.8047C0.762268 29.9404 1.17871 31.0296 1.91999 31.8326C2.66126 32.6357 3.66665 33.0868 4.71497 33.0868H9.40881V23.6809C9.40881 21.9064 10.0595 20.2046 11.2177 18.9498C12.376 17.6951 13.9469 16.9902 15.5849 16.9902C17.2229 16.9902 18.7938 17.6951 19.9521 18.9498C21.1103 20.2046 21.761 21.9064 21.761 23.6809V33.0828H26.4548C27.5032 33.0828 28.5086 32.6317 29.2498 31.8286C29.9911 31.0256 30.4076 29.9364 30.4076 28.8007V14.8839L17.2376 2.04697Z" fill="white"/>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_306_615">
+                      <rect width="29.6453" height="32.1157" fill="white" transform="translate(0.762268 0.932129)"/>
+                    </clipPath>
+                  </defs>
+                </svg></div>
+                 <p><a href="index.html">Home</a> </p>
+              </div>
+            <!-- Search -->
+            <div class="Search link ">
+              <div><svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31" fill="none">
+                <path d="M30.4073 28.8279L22.6723 21.0929C24.6816 18.6356 25.6695 15.5 25.4316 12.3347C25.1938 9.16938 23.7485 6.21658 21.3946 4.08705C19.0407 1.95752 15.9584 0.814177 12.7852 0.893518C9.61198 0.972858 6.59065 2.26881 4.34614 4.51332C2.10164 6.75782 0.805683 9.77916 0.726343 12.9524C0.647002 16.1256 1.79034 19.2079 3.91988 21.5618C6.04941 23.9157 9.0022 25.361 12.1675 25.5988C15.3328 25.8366 18.4684 24.8488 20.9257 22.8395L28.6607 30.5745L30.4073 28.8279ZM13.1142 23.1631C11.1598 23.1631 9.24925 22.5836 7.6242 21.4978C5.99915 20.4119 4.73258 18.8686 3.98465 17.063C3.23673 15.2573 3.04104 13.2704 3.42233 11.3536C3.80362 9.43668 4.74476 7.67592 6.12675 6.29393C7.50874 4.91194 9.2695 3.97079 11.1864 3.5895C13.1033 3.20821 15.0901 3.4039 16.8958 4.15183C18.7015 4.89976 20.2448 6.16633 21.3306 7.79137C22.4164 9.41642 22.996 11.327 22.996 13.2814C22.993 15.9013 21.951 18.413 20.0984 20.2656C18.2459 22.1181 15.7341 23.1602 13.1142 23.1631Z" fill="white"/>
+              </svg></div>
+              <p> <a href="playlist.html">Search</a></p>
+            </div>
+            <div class="Library link ">
+
+              <div><svg xmlns="http://www.w3.org/2000/svg" width="28" height="29" viewBox="0 0 28 29" fill="none">
+                <rect x="-0.00250244" y="0.15979" width="1.23522" height="28.4101" fill="white"/>
+                <rect x="8.64404" y="0.15979" width="1.23522" height="28.4101" fill="white"/>
+                <rect x="14.8201" y="0.655029" width="1.23522" height="29.3017" transform="rotate(-23.634 14.8201 0.655029)" fill="white"/>
+              </svg></div>
+                <p><a href="">Your Library</a></p>
+            </div>
+
+             </nav>
+        </header>
+        <div class="your-activity ms-4 mt-4">
+
+          <div class="create-list link">
+            <div class="box">+</div>
+            <p>Create Playlist</p>
+          </div>
+      
+        
+        <div class="liked-songs link">
+          <div class="heart"><img src="./image/fi-ss-heart.svg" alt="heart"></div>
+          <p>Liked Songs</p>
+        </div>
+
+        <div class="your-episodes link">
+          <div class="episodes"><img src="./image/Group.svg" alt="episodes"></div>
+          <p>Your Episodes</p>
+        </div>
+
+      </div>
+     <!-- other activities -->
+       <div class="other-activites ms-4 mt-4 ">
+        <p>FAV</p>
+        <p>Daily Mix 1</p>
+        <p>Discover Weekly</p>
+        <p>Malayalam</p>
+        <p>Dance / Electronix Mix</p>
+        <p>EDM / Popular</p>
+       </div>
+
+        <div class="install-app link ">
+          <div><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+            <path d="M21.0553 14.8841L14.8792 21.0602L8.70313 14.8841M14.8792 7.47273V19.8249V7.47273ZM14.8792 1.29663C22.3832 1.29663 28.4667 7.38009 28.4667 14.8841C28.4667 22.388 22.3832 28.4715 14.8792 28.4715C7.37527 28.4715 1.29181 22.388 1.29181 14.8841C1.29181 7.38009 7.37527 1.29663 14.8792 1.29663Z" stroke="white" stroke-width="2"/>
+          </svg></div>
+          <p>Install App</p>
+        </div>
+      </div>
+
+
+      <div class="content-detail">
+
+        <div class="angel mt-4">
+
+          <div class="arrows">
+            <span class="left-arrow">
+              <img src="./image/fi-rr-angle-small-left.svg" alt="left-arrow">
+            </span>
+            <span class="right-arrow">
+              <img src="./image/fi-rr-angle-small-right.svg" alt="right-arrow">
+            </span>
+          </div>
+
+          <div class="current-artist">
+            <img src="./image/Ellipse 3.svg" alt="ellipse">
+            <span class="text-white mx-2">Angel</span>
+            <span><img src="./image/fi-ss-caret-down.svg" alt=""></span>
+          </div>
+
+        </div>
+
+       <div class="good-morning">
+
+        <h3 class="text-white mt-4">Good Morning</h3>
+
+         <div class="content-list">
+
+          <div class="d-flex content-list-2">
+          <div class="heart-box"><img src="./image/fi-ss-heart (1).svg" alt="heart"></div>
+           <div class="like-song">Liked Songs</div>
+          </div>
+
+          <div class="d-flex mx-4 content-list-2">
+            <div class="Neffex-Playlist"><img src="./image/Rectangle 1.png" alt="playlist" ></div>
+             <div class="like-song">Neffex Playlist</div>
+            </div>
+
+            <div class="d-flex content-list-2">
+              <div class="k-da"><img src="./image/Rectangle 3.png" alt="heart"></div>
+               <div class="like-song">K/ DA</div>
+              </div>
+
+              <div class="d-flex mt-4 content-list-2">
+                <div class="Electronic-Mix"><img src="./image/Rectangle 2.png" alt="heart"></div>
+                 <div class="like-song">Dance / Electronic Mix</div>
+                </div>
+
+         </div>
+
+         <!-- show-list -->
+         <div class="shows d-flex justify-content-between my-4">
+          <h3 class="text-white">Shows you might like</h3>
+          <p class="text-white">SEE All</p>
+         </div>
+         <!-- show-list -->
+         <div class="show-list d-flex">
+
+           <div class="Weekly d-flex flex-column text-center">
+            <div class="mt-2"><img src="./image/Rectangle 16.png" alt="" width="150px" height="150px"></div>
+            <p>Weekly Motivatio...<br><span>Ben Ina Scott</span></p>
+           </div>
+          
+           <div class="Weekly d-flex flex-column text-center mx-4">
+            <div class="mt-2"><img src="./image/Rectangle 16 (1).png" alt="" width="150px" height="150px"></div>
+            <p>MEDITATION SELF<br><span>Ibn Hussain Aleen</span></p>
+           </div>
+
+           <div class="Weekly d-flex flex-column text-center mx-4">
+            <div class="mt-2"><img src="./image/Rectangle 16 (2).png" alt="" width="150px" height="150px"></div>
+            <p>Words beyond act...<br><span>Samuel Scott</span></p>
+           </div>
+
+           <div class="Weekly d-flex flex-column text-center mx-4">
+            <div class="mt-2"><img src="./image/Rectangle 16 (3).png" alt="" width="150px" height="150px"></div>
+            <p>The Alexa Show<br><span>Adriana Tom</span></p>
+           </div>
+
+           <div class="Weekly d-flex flex-column text-center mx-4">
+            <div class="mt-2"><img src="./image/Rectangle 16 (3).png" alt="" width="150px" height="150px"></div>
+            <p>The Alexa Show<br><span>Adriana Tom</span></p>
+           </div>
+           <!-- next-line -->
+           <div class="Weekly d-flex flex-column text-center mt-4">
+            <div class="mt-2"><img src="./image/Rectangle 16 (3).png" alt="" width="150px" height="150px"></div>
+            <p>The Alexa Show<br><span>Adriana Tom</span></p>
+           </div>
+
+           <div class="Weekly d-flex flex-column text-center mx-4 mt-4">
+            <div class="mt-2"><img src="./image/Rectangle 16 (3).png" alt="" width="150px" height="150px"></div>
+            <p>The Alexa Show<br><span>Adriana Tom</span></p>
+           </div>
+
+           <div class="Weekly d-flex flex-column text-center mx-4 mt-4">
+            <div class="mt-2"><img src="./image/Rectangle 16 (3).png" alt="" width="150px" height="150px"></div>
+            <p>The Alexa Show<br><span>Adriana Tom</span></p>
+           </div>
+
+           <div class="Weekly d-flex flex-column text-center mx-4 mt-4">
+            <div class="mt-2"><img src="./image/Rectangle 16 (3).png" alt="" width="150px" height="150px"></div>
+            <p>The Alexa Show<br><span>Adriana Tom</span></p>
+           </div>
+
+           <div class="Weekly d-flex flex-column text-center mx-4 mt-4">
+            <div class="mt-2"><img src="./image/Rectangle 16 (3).png" alt="" width="150px" height="150px"></div>
+            <p>The Alexa Show<br><span>Adriana Tom</span></p>
+           </div>
+         <!-- show-list-div -->
+         </div>
+        <!-- end of gud mrng div -->
+       </div>
+        <!-- end of content detail -->
+      </div>
+<!-- end of main div -->
+    </div>
+    <section>
+      <!-- <audio controls>
+        <source src="" type="audio/mp3">
+    </audio> -->
+            <div class="audio">
+
+              <div class="song-detail d-flex ">
+                <div><img src="./image/Rectangle 20.png" alt="rectangle-20"></div>
+                <p class="mx-3">Dreaming On<br><span>NEFFEX</span></p>
+                <img src="./image/bx_bxs-heart.svg" alt="">
+              </div>
+             
+              <div class="audio-control-icon">
+              <div class="line">
+                <img src="./image/raphael_shuffle.svg" alt="shuffle" class="mx-2">
+                <img src="./image/bx_bx-skip-previous.svg" alt="shuffle" class="mx-2">
+                <img src="./image/gridicons_play.svg" alt="shuffle" class="mx-2">
+                <img src="./image/bx_bx-skip-previous (1).svg" alt="shuffle" class="mx-2">
+                <img src="./image/Group (1).svg" alt="shuffle" class="mx-2">
+              </div>
+              <span class="text-white time">0.00</span>
+              <span class="text-white">2.34</span>
+              </div>
+
+            <!-- other audio-icon -->
+            <div class="audio-icon">
+              <div>
+                <img src="./image/ph_microphone-stage.svg" alt="ph_microphone-stage" class="mx-1">
+                <img src="./image/carbon_query-queue.svg" alt="ph_microphone-stage" class="mx-1">
+                <img src="./image/carbon_laptop.svg" alt="ph_microphone-stage" class="mx-1">
+                <img src="./image/Group (2).svg" alt="ph_microphone-stage" class="mx-1">
+                <span class="line-2"></span>
+                <img src="./image/Group (3).svg" alt="ph_microphone-stage" class="mx-1">
+              </div>
+            </div>
+            </div>
+    </section>
+    <footer>
+      <div class="footer-line">
+        <p class="footer-text me-4">
+          
+          Listening on ASUS-ROG-G531GT
+          <img src="./image/Group (3).svg" alt="" class="mx-2">
+        </p>
+      </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
